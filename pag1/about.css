@@ -1,0 +1,43 @@
+.navbar-nav .nav-item:not(:last-child) .nav-link::after {
+    content: " | ";
+    color: darkgrey; 
+    margin-left: 8px; 
+}
+
+.navbar { font-family: 'Courier New', Courier, monospace; }
+
+section:nth-of-type(1) {
+    background-color: #333; 
+    margin-top: 0 !important;
+    padding-top:0 !important ;
+}
+
+section:nth-of-type(1) h2 {
+    font-family: 'Arial Black', sans-serif;
+    color: wheat;
+}
+
+section:nth-of-type(1) p {
+    font-family: 'Verdana', sans-serif;
+    color: #e3f2fd;
+}
+
+section:nth-of-type(2) {
+    background-color: #e3f2fd; 
+    margin-top: 0 !important;
+}
+
+section:nth-of-type(2) h2 {
+    font-family: 'Georgia', serif;
+    color: #004085;
+}
+
+section:nth-of-type(2) h4 {
+    font-family: 'Georgia', serif;
+    color: #0056b3;
+}
+
+section:nth-of-type(2) p {
+    font-family: 'Tahoma', sans-serif;
+    color: #333;
+}
